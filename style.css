@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+
+}
+
+
+label {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+input {
+    display: grid;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc4c4;
+    border-radius: 5px;
+}
+
+input:hover{
+    border:1px solid rgb(96, 100, 94);
+    background-color: #e4e4e474;
+}
+
+input::placeholder {
+     color: rgb(204, 208, 202);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+   
+}
+
+button {
+    color: #3232329b;
+    padding: 0.5rem 3rem;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+#gameBoard {
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+  }
+  
+  #gameBoard span {
+    background-color: #ddd;
+    display: grid;
+    font-size: 5rem;
+    text-align: center;
+    transition: 1s;
+
+
+    
+  }
+  
+  #gameBoard span.win {
+    background-color: #25a340;
+    transition: 0.4s;
+    text-align: center;
+  }
+
+  .jogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
